@@ -110,6 +110,23 @@ html, body {
   border-radius: 8px;
   display: block;
 }
+.socials {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+  margin: 0 0 24px;
+}
+.btn.social {
+  background: transparent;
+  border: 2px solid #32CD32;
+  color: #32CD32;
+  font-size: 15px;
+  padding: 12px 12px;
+}
+@media (min-width: 380px) {
+  .socials { grid-template-columns: 1fr 1fr 1fr; }
+  .btn.social { font-size: 13px; padding: 12px 8px; }
+}
 .foot {
   font-size: 11px;
   color: #6e6e78;
@@ -123,6 +140,11 @@ html, body {
     <a class="btn" href="tel:+14322153693">Call 432-215-3693</a>
     <a class="btn secondary" href="https://maps.google.com/?q=4005+S+Hwy+349,+Midland,+TX+79706">Directions</a>
     <a class="btn secondary" href="FernandoSr.vcf" download="FernandoSr.vcf">Save Contact</a>
+    <div class="socials">
+      <a class="btn social" href="https://www.instagram.com/dadropshop/" target="_blank" rel="noopener noreferrer">Instagram @dadropshop</a>
+      <a class="btn social" href="https://www.tiktok.com/@dadropshop" target="_blank" rel="noopener noreferrer">TikTok @dadropshop</a>
+      <a class="btn social" href="https://www.facebook.com/share/1CKXxJwPwb/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer">Fernando Sanchez</a>
+    </div>
     <a class="addr" href="https://maps.google.com/?q=4005+S+Hwy+349,+Midland,+TX+79706">4005 S Hwy 349<br>Midland, TX 79706</a>
     <ul class="services">
       <li>Wheels</li>
