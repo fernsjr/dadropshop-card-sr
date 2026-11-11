@@ -1,0 +1,27 @@
+{
+  "name": "Fernando Sr. \u00b7 Da Drop Shop",
+  "short_name": "Da Drop Shop",
+  "description": "Digital business card for Da Drop Shop, Fernando Sr., Owner.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0d0d10",
+  "theme_color": "#0A6CFF",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "dds-badge.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
